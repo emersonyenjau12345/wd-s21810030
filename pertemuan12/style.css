@@ -1,0 +1,49 @@
+/*p{
+    color: blue;
+
+}
+p.error{
+    color: red;
+}
+.success.feeback{
+    color: green;
+    border: 5px solid yellow;
+}
+*/
+
+div .error{
+    color: red;
+}
+#top-container{
+    background-color: lightgrey;
+}
+#botton-container{ 
+    background-color: limegreen;
+}
+a[href] {
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: yellow;
+}
+a[href="https://www.google.com/"] {
+    background-color: tomato;
+}
+a[href="http://www.facebook.com/"] {
+    background-color: cyan
+}
+a[href="https://www.unklab.ac.id/"] {
+    background-color: mediumvioletred;
+}
+h1:hover {
+    color: white;
+    background-color: black;
+}
+p::selection {
+    color: red;
+    background-color: yellow;
+}
+
+a::before {
+    content:"link -";
+}
