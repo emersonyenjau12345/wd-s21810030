@@ -1,0 +1,16 @@
+span{
+
+    display:block;
+    border: solid red;
+}
+.green-text{
+    display: inline;
+    background-color: lightgreen;
+}
+.blue-text{
+    display: inline;
+    background-color: blue;
+}
+h2{
+    color: yellow;
+}
